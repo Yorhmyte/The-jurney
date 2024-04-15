@@ -1,13 +1,31 @@
 body{
-    background-color: aliceblue;
+    background-color: white;
 }
 
 h1{
     text-align: center;
+    padding: 10px;
+    margin: 2px;
 }
 
-img{
-    float: left;
-    width: 100%S;
+.img{
+    width: 500px; 
+    height: 333px;
+}
+
+nav{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+@media screen and (max-width:800px) {
+    
+}
+
+footer{
+    text-align: center;
+    color: bisque;
+    padding: 30px;
 }
 
