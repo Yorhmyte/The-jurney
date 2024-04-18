@@ -4,8 +4,10 @@ body{
 
 h1{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: 2px;
+    background-color: blueviolet;
+    border-style: hidden;
 }
 
 .img{
@@ -14,9 +16,10 @@ h1{
 }
 
 nav{
-    background-color: aliceblue;
+    background-color: blueviolet;
     box-sizing: border-box;
     padding: 20px;
+    font-color: black;
 }
 
 @media screen and (max-width:800px) {
@@ -25,7 +28,8 @@ nav{
 
 footer{
     text-align: center;
-    color: bisque;
+    color: black;
     padding: 30px;
+    background-color: rgb(240, 251, 255)251, 255);
 }
 
