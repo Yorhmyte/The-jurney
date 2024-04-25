@@ -1,7 +1,4 @@
-function greeting(name) {
-    console.log('Hello, ${name}!');
+let age = 30;
+{
+    console.log("I'm (age) years old")
 }
-
-greet ("John");
-
-let globalVar = "I'm global"

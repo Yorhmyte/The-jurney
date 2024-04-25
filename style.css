@@ -7,19 +7,28 @@ h1{
     padding: 20px;
     margin: 2px;
     background-color: blueviolet;
-    border-style: hidden;
+    border-style: line;
 }
 
-.img{
-    width: 500px; 
-    height: 333px;
+.image{
+    width: 300px; 
+    height:300px;
+}
+
+h3{
+    padding: 10px;
+    background-color: blueviolet;
 }
 
 nav{
     background-color: blueviolet;
-    box-sizing: border-box;
+    padding: 10px;  
+}
+
+.container {
+    display: flex;
     padding: 20px;
-    font-color: black;
+    margin: 10px ;
 }
 
 @media screen and (max-width:800px) {
